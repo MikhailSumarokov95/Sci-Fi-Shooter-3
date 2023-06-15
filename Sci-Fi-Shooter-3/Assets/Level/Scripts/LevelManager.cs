@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 using static StateGameManager;
 
 public class LevelManager : MonoBehaviour
@@ -10,13 +9,12 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject waveEndPanel;
     [SerializeField] private GameObject lossPanel;
     [SerializeField] private GameObject[] shopBanners;
-    private PlatformManager _platformManager;
     private bool _isWinGame;
-    private GameMode _gameMode;
+    //private GameMode _gameMode;
 
     private void OnEnable()
     {
-        _gameMode = FindObjectOfType<GameMode>();
+        //_gameMode = FindObjectOfType<GameMode>();
         GameMode.OnWavesOver += WinGame;
         GameMode.OnWaveEnd += EndWave;
     }
@@ -29,10 +27,9 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        _platformManager = FindObjectOfType<PlatformManager>();
         OnPause(false);
         StateGame = State.Game;
-        _gameMode.StartNewWave();
+        //_gameMode.StartNewWave();
     }
 
     private void Update()
@@ -102,7 +99,7 @@ public class LevelManager : MonoBehaviour
         StateGame = value ? State.WaveEnd : State.Game;
         waveEndPanel.SetActive(value);
         OnPause(value);
-        if (!value) _gameMode.StartNewWave();
+        //if (!value) _gameMode.StartNewWave();
     }
 
     private void WinGame()
@@ -129,6 +126,6 @@ public class LevelManager : MonoBehaviour
     private void OnPause(bool value)
     {
         Time.timeScale = value ? 0 : 1;
-        if (!_platformManager.IsMobile) Cursor.lockState = value ? CursorLockMode.None : CursorLockMode.Locked;
+        if (!PlatformManager.IsMobile) Cursor.lockState = value ? CursorLockMode.None : CursorLockMode.Locked;
     }
 }

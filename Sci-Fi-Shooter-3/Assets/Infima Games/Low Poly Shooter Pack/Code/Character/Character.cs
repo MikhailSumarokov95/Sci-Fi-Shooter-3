@@ -349,7 +349,7 @@ namespace InfimaGames.LowPolyShooterPack
 
 			platformManager = FindObjectOfType<PlatformManager>();
 			if (platformManager != null)
-				joystick = FindObjectOfType<Joystick>(platformManager.IsMobile);
+				joystick = FindObjectOfType<Joystick>(PlatformManager.IsMobile);
 		}
 
 		private void OnEnable()
@@ -429,7 +429,7 @@ namespace InfimaGames.LowPolyShooterPack
 			//Save Aiming Value.
 			wasAiming = aiming;
 
-			if (platformManager.IsMobile)
+			if (PlatformManager.IsMobile)
 			{
 				LookMobile();
 				MoveMobile();
@@ -1130,7 +1130,7 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		public void OnTryFire(InputAction.CallbackContext context)
 		{
-			if (platformManager.IsMobile) return;
+			if (PlatformManager.IsMobile) return;
 
 			//Switch.
 			switch (context)
@@ -1215,7 +1215,7 @@ namespace InfimaGames.LowPolyShooterPack
 		
 		public void OnTryPlayReload(InputAction.CallbackContext context)
 		{
-            if (platformManager.IsMobile) return;
+            if (PlatformManager.IsMobile) return;
 
             //Switch.
             switch (context)
@@ -1367,7 +1367,7 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		public void OnTryThrowGrenade(InputAction.CallbackContext context)
 		{
-			if (platformManager.IsMobile) return;
+			if (PlatformManager.IsMobile) return;
 				
 			switch (context.phase)
 			{	
@@ -1398,7 +1398,7 @@ namespace InfimaGames.LowPolyShooterPack
         /// </summary>
         public void OnTryThrowSuperGrenade(InputAction.CallbackContext context)
         {
-            if (platformManager.IsMobile) return;
+            if (PlatformManager.IsMobile) return;
 
             switch (context.phase)
             {
@@ -1539,7 +1539,7 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		public void OnMove(InputAction.CallbackContext context)
 		{
-			if (platformManager.IsMobile) return;
+			if (PlatformManager.IsMobile) return;
 
 			//Read.
 			axisMovement = StateGameManager.StateGame != StateGameManager.State.Game ?  default : context.ReadValue<Vector2>();
@@ -1556,7 +1556,7 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		public void OnLook(InputAction.CallbackContext context)
 		{
-			if (platformManager.IsMobile) return;
+			if (PlatformManager.IsMobile) return;
 
 			//Read.
 			axisLook = StateGameManager.StateGame != StateGameManager.State.Game ? default : context.ReadValue<Vector2>();

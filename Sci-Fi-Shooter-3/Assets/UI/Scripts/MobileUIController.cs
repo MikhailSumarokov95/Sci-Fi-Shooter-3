@@ -7,7 +7,7 @@ public class MobileUIController : MonoBehaviour
 
     private void Start()
     {
-        var isMobile = FindObjectOfType<PlatformManager>().IsMobile;
+        var isMobile = PlatformManager.IsMobile;
 
         foreach(var UI in mobileElementsUI)
         {

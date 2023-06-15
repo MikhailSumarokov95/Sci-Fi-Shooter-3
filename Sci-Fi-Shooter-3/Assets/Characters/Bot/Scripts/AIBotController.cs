@@ -9,6 +9,7 @@ public class AIBotController : MonoBehaviour
     [SerializeField] private float angleVisibility = 5f;
     [SerializeField] private float maxSpeedAnimation = 1.5f;
     [SerializeField] private float timeDo = 0.5f;
+    [SerializeField] private bool isStandby;
     private Transform _target;
     private CapsuleCollider _targetCol;
     private BotMove _botMove;
@@ -27,8 +28,9 @@ public class AIBotController : MonoBehaviour
 
     private void Update()
     {
-        if (StateGameManager.StateGame != StateGameManager.State.Game) return;
-        if (_weapon.IsAttacking) return;
+        if (StateGameManager.StateGame != StateGameManager.State.Game 
+            || _weapon.IsAttacking 
+            || isStandby) return;
         _timerForDo += Time.deltaTime;
         if (_timerForDo < timeDo) return;
         _timerForDo = 0f;
@@ -37,6 +39,8 @@ public class AIBotController : MonoBehaviour
             else _botMove.RotateTowardsTarget();
         else _botMove.RunTowardsTarget();
     }
+
+    public void Go() => isStandby = false;
 
     private bool TargetVisibilityCheck()
     {

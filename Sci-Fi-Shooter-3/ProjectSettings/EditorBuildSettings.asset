@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: d19d3d7bf3948c64492ffcf3c39655f6
   - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 59963c046dd116f44bae21d36f0effd4
+  - enabled: 1
     path: Assets/Scenes/SurvivalGameMode.unity
     guid: 58a8baa195f66444db43bdaa8aa2a489
   m_configObjects:

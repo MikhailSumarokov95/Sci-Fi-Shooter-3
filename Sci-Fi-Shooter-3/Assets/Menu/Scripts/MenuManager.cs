@@ -13,7 +13,7 @@ public class MenuManager : MonoBehaviour
         FindObjectOfType<SkinsShop>(true).Start();
     }
 
-    public void StartSurvivalGame() => SceneManager.LoadScene(3);
+    public void StartSurvivalGame() => SceneManager.LoadScene(2);
 
     public void StartWaveGame() => SceneManager.LoadScene(2);
 }
