@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2732178667127677612}
   - component: {fileID: 8859010966088968542}
   - component: {fileID: 559366528414901503}
+  - component: {fileID: 3619741671901315725}
   m_Layer: 0
   m_Name: SM_Veh_Part_LandingGear_Flat_02
   m_TagString: PartSpaceShip
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
+  - {fileID: 2100000, guid: 82a7ccffd2fed3e47ae444f4d5b0e027, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,3 +116,43 @@ MonoBehaviour:
   speedTranslate: 1
   rangeTranslate: 1
   axisRotate: {x: 0, y: 1, z: 0}
+--- !u!114 &3619741671901315725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650068631558965963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbfbe358727cce49a22ce75cdbe7c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerTag: Player
+  onEnterToActionPoint:
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    DestroyPointAfterEvent: 1
+  onStayToActionPoint:
+    Event:
+      m_PersistentCalls:
+        m_Calls: []
+    DestroyPointAfterEvent: 0
+  onExitToActionPoint:
+    Event:
+      m_PersistentCalls:
+        m_Calls: []
+    DestroyPointAfterEvent: 0

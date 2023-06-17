@@ -29,7 +29,7 @@ public class ActionPoint : MonoBehaviour
 
     private void DoEvent(ActionEvents actionEvents)
     {
-        actionEvents.Event.Invoke();
+        actionEvents.Event?.Invoke();
         if (actionEvents.DestroyPointAfterEvent) Destroy(gameObject);
     }
 

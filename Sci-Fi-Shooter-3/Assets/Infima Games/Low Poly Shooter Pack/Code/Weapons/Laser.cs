@@ -64,6 +64,11 @@ namespace InfimaGames.LowPolyShooterPack
         [SerializeField]
         private float beamMaxDistance = 500.0f;
         
+        [ShowIf("laserType", LaserType.Lasersight)]
+        [Tooltip("Maximum distance for tracing the laser beam.")]
+        [SerializeField]
+        private float extendThroughTarget = 1f;
+        
         #endregion
 
         #region FIELDS
@@ -161,7 +166,7 @@ namespace InfimaGames.LowPolyShooterPack
                 targetScale = hit.distance * 5.0f;
             
             //Scale to reach the hit location.
-            beamParent.localScale = new Vector3(beamThickness, beamThickness, targetScale);
+            beamParent.localScale = new Vector3(beamThickness, beamThickness, targetScale * extendThroughTarget);
         }
 
         #endregion

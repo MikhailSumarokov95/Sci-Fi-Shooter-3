@@ -25,8 +25,15 @@ public class Life : MonoBehaviour
             }
             GetComponent<NavMeshAgent>().enabled = false;
             GetComponent<Collider>().enabled = false;
-            var effect = Instantiate(effectDid, transform.position, transform.rotation);
-            Destroy(gameObject);
+            if (effectDid != null)
+            {
+                Instantiate(effectDid, transform.position, transform.rotation);
+                Destroy(gameObject);
+            }
+            else
+            {
+                GetComponent<Animator>().SetTrigger("Did");
+            }
         }
     }
 

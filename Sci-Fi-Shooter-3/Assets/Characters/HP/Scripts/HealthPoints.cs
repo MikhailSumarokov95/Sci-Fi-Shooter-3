@@ -84,8 +84,6 @@ public class HealthPoints : MonoBehaviour
 
     private void ToDead()
     {
-        if (!gameObject.CompareTag("Player"))
-            GetComponent<Animator>().SetTrigger("Did");
         GetComponent<Life>().Did();
     }
 

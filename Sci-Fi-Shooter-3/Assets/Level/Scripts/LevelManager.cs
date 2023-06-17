@@ -102,7 +102,7 @@ public class LevelManager : MonoBehaviour
         //if (!value) _gameMode.StartNewWave();
     }
 
-    private void WinGame()
+    public void WinGame()
     {
         _isWinGame = true;
         StartWinGamePanel();

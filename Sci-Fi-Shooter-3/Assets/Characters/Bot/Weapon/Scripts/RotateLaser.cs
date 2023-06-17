@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class RotateLaser : MonoBehaviour
 {
-    [SerializeField] Transform laserTr;
-    private Transform _mainCameraTr;
+    [SerializeField] private Transform laserTr;
+    [SerializeField] private Vector3 offsetTarget;
+    private Transform target;
     private Life _life;
 
     private void Start()
     {
-        _mainCameraTr = Camera.main.transform;
+        target = GetComponent<TargetMoveBot>().GetTarget();
         _life = GetComponent<Life>();
     }
 
     private void LateUpdate()
     {
         if (_life.IsDid) return;
-
-        laserTr.LookAt(_mainCameraTr.position - Vector3.up);
+        laserTr.LookAt(target.position + offsetTarget);
         laserTr.Rotate(Vector3.right, 270);
     }
 }

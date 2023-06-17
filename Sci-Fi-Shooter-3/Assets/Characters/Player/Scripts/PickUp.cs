@@ -1,3 +1,4 @@
+using GameScore;
 using UnityEngine;
 
 public class PickUp : MonoBehaviour
@@ -10,14 +11,21 @@ public class PickUp : MonoBehaviour
             health.TakeHealth(health.MaxHealth);
             Destroy(other.gameObject);
         }
-        if (other.CompareTag("PartSpaceShip"))
+        else if (other.CompareTag("PartSpaceShip"))
         {
+            Progress.SetNumberPartsFoundShip(Progress.GetNumberPartsFoundShip() + 1);
             Destroy(other.gameObject);
+
         }
-        if (other.CompareTag("Ammunition"))
+        else if (other.CompareTag("Ammunition"))
         {
             other.GetComponent<AmmunitionShop>().ReplenishAmmunition();
             Destroy(other.gameObject);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision.gameObject.tag);
     }
 }
