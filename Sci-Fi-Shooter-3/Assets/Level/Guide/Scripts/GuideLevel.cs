@@ -16,13 +16,13 @@ public class GuideLevel : MonoBehaviour
             return;
         }
         GameMode.OnSpawnedEnemies += SetChanceLoot;
-        GameMode.OnWavesOver += StartText2;
+        GameMode.OnGameWin += StartText2;
     }
     
     private void OnDisable()
     {
         GameMode.OnSpawnedEnemies -= SetChanceLoot;
-        GameMode.OnWavesOver -= StartText2;
+        GameMode.OnGameWin -= StartText2;
     }
 
     private void Start()

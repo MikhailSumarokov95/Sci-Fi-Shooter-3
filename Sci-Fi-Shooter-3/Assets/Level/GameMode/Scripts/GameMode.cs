@@ -2,13 +2,14 @@ using UnityEngine;
 using System;
 using System.Collections;
 using static Spawner;
+using static StateGameManager;
 
 public abstract class GameMode : MonoBehaviour
 {
     public static GameMode Instance;
     public static Action<Life[]> OnSpawnedEnemies;
-    public static Action OnWavesOver;
-    public static Action OnWaveEnd;
+    public static Action OnGameWin;
+    [SerializeField] private GameObject waveEndPanel;
     [Title(label: "Generals")]
     [SerializeField] protected SpawnBot[] spawnBots;
     [SerializeField] protected SpawnBot[] spawnBoss;
@@ -16,6 +17,7 @@ public abstract class GameMode : MonoBehaviour
     [SerializeField] protected int countWave = int.MaxValue;
     protected Life[] _currentEnemyLife;
     protected bool _waveEnd;
+    protected LevelManager _levelManager;
 
     protected int _countKilledEnemyForWave;
     public int CountKilledEnemyForWave { get { return _countKilledEnemyForWave; } }
@@ -27,6 +29,12 @@ public abstract class GameMode : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else if (Instance != this) Destroy(gameObject);
+    }
+
+    private void Start()
+    {
+        _levelManager = FindObjectOfType<LevelManager>();
+        StartNewWave();
     }
 
     private void Update()
@@ -57,15 +65,30 @@ public abstract class GameMode : MonoBehaviour
             enemy.OnDid -= IncrementCountKilled;
     }
 
+    private void EndWave()
+    {
+        GSConnect.ShowMidgameAd();
+        _levelManager.SetActivePausePanel(false);
+        SetActiveWaveEndPanel(true);
+    }
+
+    public void SetActiveWaveEndPanel(bool value)
+    {
+        StateGame = value ? State.WaveEnd : State.Game;
+        waveEndPanel.SetActive(value);
+        _levelManager.OnPause(value);
+        if (!value) StartNewWave();
+    }
+
     private IEnumerator WaitAndOnWaveEnd()
     {
         yield return new WaitForSeconds(delayAfterEndWave);
-        OnWaveEnd?.Invoke();
+        EndWave();
     }
 
     private IEnumerator WaitAndOnWavesOver()
     {
         yield return new WaitForSeconds(delayAfterEndWave);
-        OnWavesOver?.Invoke();
+        _levelManager.WinGame();
     }
 }

@@ -7,31 +7,15 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private GameObject winGamePanel;
     [SerializeField] private GameObject pausePanel;
-    [SerializeField] private GameObject waveEndPanel;
     [SerializeField] private GameObject lossPanel;
     [SerializeField] private GameObject[] shopBanners;
     [SerializeField] private SceneAsset sceneNextLevel;
     private bool _isWinGame;
-    private GameMode _gameMode;
-
-    private void OnEnable()
-    {
-        _gameMode = FindObjectOfType<GameMode>();
-        GameMode.OnWavesOver += WinGame;
-        GameMode.OnWaveEnd += EndWave;
-    }
-
-    private void OnDisable()
-    {
-        GameMode.OnWavesOver -= WinGame;
-        GameMode.OnWaveEnd -= EndWave;
-    }
 
     private void Start()
     {
         OnPause(false);
         StateGame = State.Game;
-        _gameMode.StartNewWave();
     }
 
     private void Update()
@@ -96,14 +80,6 @@ public class LevelManager : MonoBehaviour
         FindObjectOfType<BattlePassRewarder>(true).RewardPerLevel();
     }
 
-    public void SetActiveWaveEndPanel(bool value)
-    {
-        StateGame = value ? State.WaveEnd : State.Game;
-        waveEndPanel.SetActive(value);
-        OnPause(value);
-        if (!value) _gameMode.StartNewWave();
-    }
-
     public void WinGame()
     {
         _isWinGame = true;
@@ -118,14 +94,7 @@ public class LevelManager : MonoBehaviour
         OnPause(value);
     }
 
-    private void EndWave()
-    {
-        GSConnect.ShowMidgameAd();
-        SetActivePausePanel(false);
-        SetActiveWaveEndPanel(true);
-    }
-
-    private void OnPause(bool value)
+    public void OnPause(bool value)
     {
         Time.timeScale = value ? 0 : 1;
         if (!PlatformManager.IsMobile) Cursor.lockState = value ? CursorLockMode.None : CursorLockMode.Locked;

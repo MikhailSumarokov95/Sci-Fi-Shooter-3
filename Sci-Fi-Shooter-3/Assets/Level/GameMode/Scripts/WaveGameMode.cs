@@ -28,11 +28,6 @@ public class WaveGameMode : GameMode
         _waveEnd = false;
     }
 
-    //public override void NextLevel()
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    //}
-
     protected override void IncrementCountKilled()
     {
         _countKilledEnemyForWave++;
