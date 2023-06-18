@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static Spawner;
 
 public class WaveGameMode : GameMode
@@ -26,6 +27,11 @@ public class WaveGameMode : GameMode
         _countKilledEnemyForWave = 0;
         _waveEnd = false;
     }
+
+    //public override void NextLevel()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //}
 
     protected override void IncrementCountKilled()
     {

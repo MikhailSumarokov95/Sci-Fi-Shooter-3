@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static StateGameManager;
@@ -9,12 +10,13 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject waveEndPanel;
     [SerializeField] private GameObject lossPanel;
     [SerializeField] private GameObject[] shopBanners;
+    [SerializeField] private SceneAsset sceneNextLevel;
     private bool _isWinGame;
-    //private GameMode _gameMode;
+    private GameMode _gameMode;
 
     private void OnEnable()
     {
-        //_gameMode = FindObjectOfType<GameMode>();
+        _gameMode = FindObjectOfType<GameMode>();
         GameMode.OnWavesOver += WinGame;
         GameMode.OnWaveEnd += EndWave;
     }
@@ -29,7 +31,7 @@ public class LevelManager : MonoBehaviour
     {
         OnPause(false);
         StateGame = State.Game;
-        //_gameMode.StartNewWave();
+        _gameMode.StartNewWave();
     }
 
     private void Update()
@@ -52,7 +54,7 @@ public class LevelManager : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(sceneNextLevel.name);
         OnPause(false);
     }
 
@@ -99,7 +101,7 @@ public class LevelManager : MonoBehaviour
         StateGame = value ? State.WaveEnd : State.Game;
         waveEndPanel.SetActive(value);
         OnPause(value);
-        //if (!value) _gameMode.StartNewWave();
+        if (!value) _gameMode.StartNewWave();
     }
 
     public void WinGame()

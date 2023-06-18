@@ -15,8 +15,9 @@ public abstract class GameMode : MonoBehaviour
     [SerializeField] protected int delayAfterEndWave = 2;
     [SerializeField] protected int countWave = int.MaxValue;
     protected Life[] _currentEnemyLife;
-    protected int _countKilledEnemyForWave;
     protected bool _waveEnd;
+
+    protected int _countKilledEnemyForWave;
     public int CountKilledEnemyForWave { get { return _countKilledEnemyForWave; } }
 
     private int _numberWave = 0;

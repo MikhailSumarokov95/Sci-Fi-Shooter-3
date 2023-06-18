@@ -50,7 +50,7 @@
   <text id="29Yan">29 ЯН</text>
   <text id="PriceSuperGrenade">5 за 9 ЯН</text>
   <text id="SuperGrenade">Бросить Супер гранату - V</text>
-  <text id=" partsInInventory">Запчасти в инвентаре</text>
+  <text id="partsInInventory">Запчасти в инвентаре</text>
   <text id="Skin">Скин</text>
   <text id="BuySparePart">Купить запчасть за 19ЯН</text>
   <text id="FlyOffThePlanet">Улететь с планеты</text>
@@ -71,6 +71,12 @@
   <text id="DailyQuest">Ежедневные задания</text>
   <text id="GRENADE">Граната</text>
   <text id="SUPERGRENADE">Супер граната</text>
-  <text id="Go Wave">Обычная игра</text>
+  <text id="GoWave">Обычная игра</text>
   <text id="Survival">Выживание</text>
+  <text id="StoryText1">Где корабль?</text>
+  <text id="StoryText2">Осталось только шасси!</text>
+  <text id="StoryText3">Пошли искать!</text>
+  <text id="StoryText4">Кто это?</text>
+  <text id="StoryText5">Это они разобрали корабль!</text>
+  <text id="StoryText6">Забирай запчасть и в космодром!</text>
 </texts>

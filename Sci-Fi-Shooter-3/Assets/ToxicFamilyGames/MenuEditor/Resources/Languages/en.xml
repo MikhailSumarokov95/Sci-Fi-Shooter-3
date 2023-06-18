@@ -50,7 +50,7 @@
 	<text id="29Yan">29 YAN</text>
 	<text id="PriceSuperGrenade">5 for 9 YAN</text>
 	<text id="SuperGrenade">Throw Super Grenade - V</text>
-	<text id=" partsInInventory">Parts in inventory</text>
+	<text id="partsInInventory">Parts in inventory</text>
 	<text id="Skin">Skin</text>
 	<text id="BuySparePart">Buy Spare Part for 19YAN</text>
 	<text id="FlyOffThePlanet">Fly off the planet</text>
@@ -71,6 +71,12 @@ Battlepass
 	<text id="DailyQuest">Daily Quest</text>
 	<text id="GRENADE">Grenade</text>
 	<text id="SUPERGRENADE">Supergrenade</text>
-	<text id="Go Wave">Regular game</text>
+	<text id="GoWave">Regular game</text>
 	<text id="Survival">Survival</text>
+	<text id="StoryText1">Where is the ship?</text>
+	<text id="StoryText2">Only the chassis remains!</text>
+	<text id="StoryText3">Let's go look!</text>
+	<text id="StoryText4">Who is this?</text>
+	<text id="StoryText5">They took the ship apart!</text>
+	<text id="StoryText6">Take the spare part and go to the spaceport!</text>
 </text>
