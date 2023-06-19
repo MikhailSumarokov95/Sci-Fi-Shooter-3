@@ -6606,14 +6606,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6377455919227246253}
-  m_LocalRotation: {x: 0.6141206, y: 0.32676017, z: -0.64828026, w: 0.3095424}
+  m_LocalRotation: {x: -0.13786772, y: -0.8418826, z: 0.45520422, w: -0.254981}
   m_LocalPosition: {x: -15.85, y: 1.6905041, z: -16.31407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6377455920445445282}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 56.8, y: -213.7, z: 0}
 --- !u!108 &6377455919227246252
 Light:
   m_ObjectHideFlags: 0
@@ -6665,7 +6665,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8250,7 +8250,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winGamePanel: {fileID: 914336957777612047}
   pausePanel: {fileID: 2151910004528193426}
-  waveEndPanel: {fileID: 2337255579785465182}
   lossPanel: {fileID: 3846037826667362230}
   shopBanners:
   - {fileID: 914336957709535298}

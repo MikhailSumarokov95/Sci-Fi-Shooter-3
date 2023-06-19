@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using static SkinsShop;
 
 public class HealthPoints : MonoBehaviour
 {
@@ -49,7 +48,8 @@ public class HealthPoints : MonoBehaviour
 
     private void Start()
     {
-        CurrentHealth = maxHealth;
+        MaxHealth = maxHealth;
+        CurrentHealth = MaxHealth;
         _life = GetComponent<Life>();
     }
 

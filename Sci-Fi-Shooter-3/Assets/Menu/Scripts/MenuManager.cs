@@ -1,8 +1,11 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [SerializeField] private SceneAsset[] scenesStoryLevels;
+
     private void Awake()
     {
         if (!Progress.IsSetDefaultWeapons())
@@ -15,5 +18,9 @@ public class MenuManager : MonoBehaviour
 
     public void StartSurvivalGame() => SceneManager.LoadScene(2);
 
-    public void StartWaveGame() => SceneManager.LoadScene(2);
+    public void StartStory()
+    {
+        if (scenesStoryLevels.Length < Level.CurrentLevel) StartSurvivalGame();
+        else SceneManager.LoadScene(scenesStoryLevels[Level.CurrentLevel - 1].name);
+    }
 }

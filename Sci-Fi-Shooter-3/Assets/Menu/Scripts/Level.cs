@@ -5,7 +5,7 @@ public class Level : MonoBehaviour
 {
     [SerializeField] private TMP_Text currentLevelText;
 
-    public static int CurrentLevel { get { return Progress.GetLevel(); } set { Progress.SetLevel(value); } }
+    public static int CurrentLevel { get { return Progress.GetLevel(); } private set { Progress.SetLevel(value); } }
 
     private void Start()
     {

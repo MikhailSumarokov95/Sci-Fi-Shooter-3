@@ -2175,7 +2175,7 @@ GameObject:
   - component: {fileID: 353979293}
   - component: {fileID: 353979292}
   m_Layer: 5
-  m_Name: Go Wave
+  m_Name: GoStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2248,7 +2248,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1195663724}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: StartWaveGame
+        m_MethodName: StartStory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6083,7 +6083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0779fdcfc4ade214a84512b568669f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Go Wave
+  id: GoWave
 --- !u!224 &1091153377 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5100711377283473619, guid: 0f276dc90dcb03a4a9f8a0d4365bf7fc,
@@ -6643,6 +6643,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aa1aea2130c66d49beb41531dd25870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesStoryLevels:
+  - {fileID: 102900000, guid: 59963c046dd116f44bae21d36f0effd4, type: 3}
+  - {fileID: 102900000, guid: 6e76952ae6c6d9648abed3b6fe1dd719, type: 3}
 --- !u!4 &1195663725
 Transform:
   m_ObjectHideFlags: 0
