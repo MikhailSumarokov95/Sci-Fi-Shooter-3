@@ -2,32 +2,33 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Collider))]
 public class ActionPoint : MonoBehaviour
 {
-    [SerializeField] private string triggerTag;
+    [SerializeField] protected string triggerTag;
     [SerializeField] private ActionEvents onEnterToActionPoint;
     [SerializeField] private ActionEvents onStayToActionPoint;
     [SerializeField] private ActionEvents onExitToActionPoint;
 
-    private void OnTriggerEnter(Collider collision)
+    protected virtual void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag(triggerTag))
             DoEvent(onEnterToActionPoint);
     }
 
-    private void OnTriggerStay(Collider collision)
+    protected virtual void OnTriggerStay(Collider collision)
     {
         if (collision.gameObject.CompareTag(triggerTag))
             DoEvent(onStayToActionPoint);
     }
 
-    private void OnTriggerExit(Collider collision)
+    protected virtual void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.CompareTag(triggerTag))
             DoEvent(onExitToActionPoint);
     }
 
-    private void DoEvent(ActionEvents actionEvents)
+    protected virtual void DoEvent(ActionEvents actionEvents)
     {
         actionEvents.Event?.Invoke();
         if (actionEvents.DestroyPointAfterEvent) Destroy(gameObject);

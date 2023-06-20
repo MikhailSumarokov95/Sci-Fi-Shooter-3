@@ -1120,19 +1120,7 @@ MonoBehaviour:
     m_ActionId: e1ba90be-8b16-4d83-b537-6b079e5a19ea
     m_ActionName: Player/Interact[/Keyboard/f,/XInputControllerWindows/buttonWest]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3922840206599776121}
-        m_TargetAssemblyTypeName: InfimaGames.LowPolyShooterPack.Character, Assembly-CSharp
-        m_MethodName: OnTryThrowSuperGrenade
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: aba9c449-1844-400f-8a9f-36fa25ee1d9e
     m_ActionName: Player/SuperGrenade[/Keyboard/v]
   m_NeverAutoSwitchControlSchemes: 0

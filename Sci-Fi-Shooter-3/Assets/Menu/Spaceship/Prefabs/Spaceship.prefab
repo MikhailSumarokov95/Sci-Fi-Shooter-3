@@ -28,15 +28,15 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3591109256402843583}
+  - {fileID: 3591109257090267707}
   - {fileID: 3591063365472672317}
   - {fileID: 3587333309262694487}
   - {fileID: 3591553343534863701}
-  - {fileID: 3591109257090267707}
   - {fileID: 3591439116865918538}
   - {fileID: 3591507984496962889}
   - {fileID: 3591612408620207970}
   - {fileID: 3591507983922270392}
-  - {fileID: 3591109256402843583}
   - {fileID: 3591553344795504293}
   - {fileID: 3591553343521726702}
   - {fileID: 3591553342770348663}
@@ -55,6 +55,10 @@ PrefabInstance:
     - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4765637632853416, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_RootOrder
@@ -136,9 +140,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Engine_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1214062680037290, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703251614001750, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4703251614001750, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
       propertyPath: m_LocalScale.x
@@ -218,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787519393106254, guid: 0baaf7930ead7a14bab8610d1179f5a6, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4787519393106254, guid: 0baaf7930ead7a14bab8610d1179f5a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -296,9 +304,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Engine_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1214062680037290, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703251614001750, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4703251614001750, guid: 7c14d6def9973d94ebee3af15a5de634, type: 3}
       propertyPath: m_LocalScale.x
@@ -375,6 +387,10 @@ PrefabInstance:
     - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4765637632853416, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_RootOrder
@@ -456,9 +472,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_09
       objectReference: {fileID: 0}
+    - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4765637632853416, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4765637632853416, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_LocalScale.x
@@ -536,17 +556,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Wing_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1487381559037186, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4477545037989190, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4477545037989190, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.119995
+      value: -11.12
       objectReference: {fileID: 0}
     - target: {fileID: 4477545037989190, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54
+      value: -0.5400009
       objectReference: {fileID: 0}
     - target: {fileID: 4477545037989190, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_LocalPosition.z
@@ -604,9 +628,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_EscapePod_Large_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1234771383258718, guid: 0a8a83512bf4eb440b2f640bed8eef96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4633582219971446, guid: 0a8a83512bf4eb440b2f640bed8eef96, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4633582219971446, guid: 0a8a83512bf4eb440b2f640bed8eef96, type: 3}
       propertyPath: m_LocalScale.x
@@ -684,9 +712,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Cockpit_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1691321265664528, guid: aecdad9f8d06238489cbe831d176f302, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4737358486264182, guid: aecdad9f8d06238489cbe831d176f302, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4737358486264182, guid: aecdad9f8d06238489cbe831d176f302, type: 3}
       propertyPath: m_LocalPosition.x
@@ -751,6 +783,10 @@ PrefabInstance:
     - target: {fileID: 1942475052120288, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942475052120288, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4831203132392440, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
       propertyPath: m_RootOrder
@@ -820,9 +856,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_06
       objectReference: {fileID: 0}
+    - target: {fileID: 1942475052120288, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4831203132392440, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4831203132392440, guid: 7b2c5680b2adee1448fd0d1b210256f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -887,6 +927,10 @@ PrefabInstance:
     - target: {fileID: 1487381559037186, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Part_Wing_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487381559037186, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4477545037989190, guid: 6afacdfa00ed26b418a7a6cd1687f6af, type: 3}
       propertyPath: m_RootOrder
@@ -955,6 +999,10 @@ PrefabInstance:
     - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Part_Misc_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219557583657672, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4765637632853416, guid: 75891b71f5352ab4db90f2150f11029f, type: 3}
       propertyPath: m_RootOrder
@@ -1038,7 +1086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787519393106254, guid: 0baaf7930ead7a14bab8610d1179f5a6, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4787519393106254, guid: 0baaf7930ead7a14bab8610d1179f5a6, type: 3}
       propertyPath: m_LocalScale.x

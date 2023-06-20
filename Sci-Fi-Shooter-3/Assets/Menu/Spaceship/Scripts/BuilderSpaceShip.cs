@@ -1,7 +1,6 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using GameScore;
 
 public class BuilderSpaceShip : MonoBehaviour, IShopPurchase
 {

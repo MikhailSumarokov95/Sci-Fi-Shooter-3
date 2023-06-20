@@ -15,7 +15,7 @@ C:/Users/Mikhail/Desktop/Unity/Sci-Fi-Shooter-3/Sci-Fi-Shooter-3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51350
+54870
 Successfully changed project path to: C:/Users/Mikhail/Desktop/Unity/Sci-Fi-Shooter-3/Sci-Fi-Shooter-3
 C:/Users/Mikhail/Desktop/Unity/Sci-Fi-Shooter-3/Sci-Fi-Shooter-3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Mikhail/Desktop/Unity/Sci-Fi-Shooter-3/Sci-Fi-Shooter-3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2840] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1239040738 [EditorId] 1239040738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19232] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2072885774 [EditorId] 2072885774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2840] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1239040738 [EditorId] 1239040738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19232] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2072885774 [EditorId] 2072885774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 232.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 264.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,83 +67,83 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007535 seconds.
+Registered in 0.007251 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 184 ms
+Android Extension - Scanning For ADB Devices 195 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 247.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 230.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
+- Completed reload, in  0.980 seconds
 Domain Reload Profiling:
-	ReloadAssembly (987ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (805ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (619ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (618ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (252ms)
+				InitializePlatformSupportModulesInManaged (262ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (248ms)
+				RefreshPlugins (230ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008077 seconds.
+Registered in 0.008153 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 266.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 248.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.611 seconds
+- Completed reload, in  1.660 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1612ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1661ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1398ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (341ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (860ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (853ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (267ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (249ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4840 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (56.0 KB). Loaded Objects now: 5306.
-Memory consumption went from 280.8 MB to 280.7 MB.
-Total: 3.456100 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.283900 ms MarkObjects: 2.730700 ms  DeleteObjects: 0.082300 ms)
+Unloading 4842 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (56.1 KB). Loaded Objects now: 5308.
+Memory consumption went from 280.6 MB to 280.6 MB.
+Total: 3.955300 ms (FindLiveObjects: 0.888200 ms CreateObjectMapping: 0.397800 ms MarkObjects: 2.605500 ms  DeleteObjects: 0.063200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,52 +169,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 164003.800006 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d022ad3418275973779bff8cf1190c1') in 0.020103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.311785 seconds.
+  path: Assets/Level/DailyQuest/Prefabs/DailyQuest.prefab
+  artifactKey: Guid(18dfd192268769542a16aecb943db1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level/DailyQuest/Prefabs/DailyQuest.prefab using Guid(18dfd192268769542a16aecb943db1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec37fc7fe5e7afc4f85d31de0c33ca87') in 0.098467 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007434 seconds.
+Registered in 0.007336 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  1.236 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1261ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1030ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (522ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (503ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4796 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.6 KB). Loaded Objects now: 5309.
-Memory consumption went from 295.9 MB to 295.9 MB.
-Total: 4.094100 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.323100 ms MarkObjects: 3.314100 ms  DeleteObjects: 0.040100 ms)
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (26.5 KB). Loaded Objects now: 5314.
+Memory consumption went from 294.0 MB to 294.0 MB.
+Total: 3.837300 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.455300 ms MarkObjects: 3.011500 ms  DeleteObjects: 0.040500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -228,32 +240,380 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72683.644497 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(6e76952ae6c6d9648abed3b6fe1dd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(6e76952ae6c6d9648abed3b6fe1dd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30047ad3319b645818caa73bd419b2e2') in 0.019286 seconds 
+  Time since last request: 139.045476 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506deec9159e90885f06543def04727d') in 0.007423 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.390523 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(6e76952ae6c6d9648abed3b6fe1dd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(6e76952ae6c6d9648abed3b6fe1dd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6655454e3e8293eb73aea46262feb1') in 0.001981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.035561 seconds.
-  path: Assets/Scenes/StoryText.prefab
-  artifactKey: Guid(93825a99a583c6d4ea083cfca73099a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StoryText.prefab using Guid(93825a99a583c6d4ea083cfca73099a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55aeb4df30e514375834790465333318') in 0.084221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.316418 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75566ad2c3a5721edce2f6c7d28dff8') in 0.001621 seconds 
+  Time since last request: 38.718438 seconds.
+  path: Assets/Level/DailyQuest/Prefabs/---DailyQuest.prefab
+  artifactKey: Guid(16d7e706bc22885429bb011f8d56016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level/DailyQuest/Prefabs/---DailyQuest.prefab using Guid(16d7e706bc22885429bb011f8d56016f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a40af8079377e3f288fc8e96a423b08') in 0.029601 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007490 seconds.
+Registered in 0.008368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (538ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5317.
+Memory consumption went from 294.2 MB to 294.2 MB.
+Total: 3.651900 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.310900 ms MarkObjects: 2.961800 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5320.
+Memory consumption went from 294.2 MB to 294.2 MB.
+Total: 3.410900 ms (FindLiveObjects: 0.421700 ms CreateObjectMapping: 0.309700 ms MarkObjects: 2.649500 ms  DeleteObjects: 0.029500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1041ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5323.
+Memory consumption went from 294.3 MB to 294.2 MB.
+Total: 3.525400 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.344000 ms MarkObjects: 2.813200 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5326.
+Memory consumption went from 294.1 MB to 294.0 MB.
+Total: 3.558200 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.294200 ms MarkObjects: 2.859500 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5329.
+Memory consumption went from 294.3 MB to 294.2 MB.
+Total: 3.855900 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.214300 ms MarkObjects: 3.297500 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1117.945544 seconds.
+  path: Assets/UI/Prefabs/Exit.prefab
+  artifactKey: Guid(75fd632921f3bc94e9d10b69c8d0d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Prefabs/Exit.prefab using Guid(75fd632921f3bc94e9d10b69c8d0d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef40e26a2f9dffec1e565c0947aa8bc0') in 0.040803 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010726 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5332.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.435300 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.317600 ms MarkObjects: 2.724700 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 545.449382 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8ac13d70be091799d9e3d2dfbe84eb') in 0.007353 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007666 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -263,40 +623,40 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  1.246 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1005ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (577ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (526ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (188ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4796 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5313.
-Memory consumption went from 293.5 MB to 293.4 MB.
-Total: 3.468200 ms (FindLiveObjects: 0.351900 ms CreateObjectMapping: 0.309700 ms MarkObjects: 2.766100 ms  DeleteObjects: 0.039700 ms)
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5335.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.464700 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.404100 ms MarkObjects: 2.655900 ms  DeleteObjects: 0.050700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -309,15 +669,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 35.679141 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a55413b777aa6bb80a24ba4188863d') in 0.007819 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007338 seconds.
+Registered in 0.007197 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -327,40 +681,40 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
+- Completed reload, in  1.218 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1335ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1093ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (578ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (489ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4796 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5316.
-Memory consumption went from 293.7 MB to 293.7 MB.
-Total: 3.845600 ms (FindLiveObjects: 0.484200 ms CreateObjectMapping: 0.466900 ms MarkObjects: 2.860400 ms  DeleteObjects: 0.033100 ms)
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5338.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.356300 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.338900 ms MarkObjects: 2.634300 ms  DeleteObjects: 0.030300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -374,701 +728,245 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.848686 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(59963c046dd116f44bae21d36f0effd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992e9e4b1e559e597cfafc667539165a') in 0.008781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 191.449933 seconds.
-  path: Assets/PolygonHeist/Textures/PolygonHeist_Texture_03_B.png
-  artifactKey: Guid(11cf3a1109ec3c54981b9962480e325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonHeist/Textures/PolygonHeist_Texture_03_B.png using Guid(11cf3a1109ec3c54981b9962480e325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590982bb54acf12724d5e9f1e81419c7') in 0.097199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_PlanetLines_01.png
-  artifactKey: Guid(67c01b19dd0b2354f932b32748d8491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_PlanetLines_01.png using Guid(67c01b19dd0b2354f932b32748d8491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2610b36c9f8fa76a689afb6883af5319') in 0.026878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_02.png
-  artifactKey: Guid(02439d2262239884b9b21e136e490b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_02.png using Guid(02439d2262239884b9b21e136e490b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5bcb7f98a720bcdb903d47d65e827e') in 0.043164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_01.png
-  artifactKey: Guid(09f3ff0997ec4cd40a8d286b97a6ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_01.png using Guid(09f3ff0997ec4cd40a8d286b97a6ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629453bc1157756bc439619829df8c12') in 0.029242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonHeist/Textures/PolygonHeist_Texture_04_A.png
-  artifactKey: Guid(f8a6f8a214109c44fa9143ccca2c3539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonHeist/Textures/PolygonHeist_Texture_04_A.png using Guid(f8a6f8a214109c44fa9143ccca2c3539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8befacf2c432125aadc6edb9fe78cc58') in 0.036887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_Station_01.png
-  artifactKey: Guid(1e98a8c6cf7c7614e9cc8a41b88160a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_Station_01.png using Guid(1e98a8c6cf7c7614e9cc8a41b88160a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85760783f3d24684b6666506c1039e5') in 0.027214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_03.png
-  artifactKey: Guid(4d4017a23d626c6448ee01311d3bb518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_03.png using Guid(4d4017a23d626c6448ee01311d3bb518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a93b26b2e3b163368a14bc1bab381') in 0.024504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_03.png
-  artifactKey: Guid(cbb25b15642c24f47bec943b28109ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_03.png using Guid(cbb25b15642c24f47bec943b28109ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4864c0c268c0d861bfa5521bd247b055') in 0.027069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_04.png
-  artifactKey: Guid(d340de18a860459479dc501ad8a6bec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/PolygonSciFiSpace_Ship_Mask_04.png using Guid(d340de18a860459479dc501ad8a6bec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb0c352cbc45a69014256ff3af625cb') in 0.022494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_Mask.png
-  artifactKey: Guid(d3123674b0ac562419ec737bfe387f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiSpace/Textures/Alts/PolygonSciFiSpace_Emissive_Mask.png using Guid(d3123674b0ac562419ec737bfe387f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf8b9e0fa9937aec92fc4eea06f175') in 0.025695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.970804 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 4/Play.png
-  artifactKey: Guid(615951b1a79a27e42ad8c6e5b2713147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 4/Play.png using Guid(615951b1a79a27e42ad8c6e5b2713147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0818245a385eb99e51ba350f787a9edd') in 0.078293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_CardFrame01_00_Mask.png
-  artifactKey: Guid(d5790e119348f47448cafa7ed7700110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_CardFrame01_00_Mask.png using Guid(d5790e119348f47448cafa7ed7700110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4eb84c6b5db46aeb3fbbb63cdce8fb') in 0.027775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel.png
-  artifactKey: Guid(a0eb9ce5c6a30934095cf9f4601da24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel.png using Guid(a0eb9ce5c6a30934095cf9f4601da24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134200fc60d3ce848852f009f676a3f3') in 0.048706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/1/Camera.png
-  artifactKey: Guid(a4c8622754522f44aae86c0965aba3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/1/Camera.png using Guid(a4c8622754522f44aae86c0965aba3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce1dbb6507025d80e99fe7cd5087d44') in 0.037117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Plain Style Pack/Plain Button with icon 6/Play.png
-  artifactKey: Guid(4a2f4ca999899f543a5d86d56e6602c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Plain Style Pack/Plain Button with icon 6/Play.png using Guid(4a2f4ca999899f543a5d86d56e6602c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6741cf2a044506e513b70622000734') in 0.035115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Icon Single/Camera.png
-  artifactKey: Guid(51358e77ffa28aa4781b53af6c048cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Icon Single/Camera.png using Guid(51358e77ffa28aa4781b53af6c048cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fbd52b13a47e1736dbe37cfe69b7cf') in 0.035522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-3.png
-  artifactKey: Guid(b0e6ccebdd3194e48b139e7b02ec294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-3.png using Guid(b0e6ccebdd3194e48b139e7b02ec294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c4dc5a009413f4e2ab597c8f80ca64') in 0.051456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_On.png
-  artifactKey: Guid(af0f95622eb3c42d187fd0cb190aaaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_On.png using Guid(af0f95622eb3c42d187fd0cb190aaaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99becec70ea67cbb616618e3c43dd08') in 0.023168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Props/lIFE-3.png
-  artifactKey: Guid(99028f9f83cbb3c4586236c7e5115c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Props/lIFE-3.png using Guid(99028f9f83cbb3c4586236c7e5115c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d59df20f64a70a09d8b1395c8c14b59') in 0.033483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-head.png
-  artifactKey: Guid(5b806d0197c5c4a43bd75484d418f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-head.png using Guid(5b806d0197c5c4a43bd75484d418f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c39c7b8e1ca4c179c38a763bc518b44') in 0.036541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-824_comp_light.exr
-  artifactKey: Guid(9a9a803e6604b5448abecc1c9e55792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-824_comp_light.exr using Guid(9a9a803e6604b5448abecc1c9e55792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5983ce1c15e03894108f8afc5a3dc72f') in 0.024193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Icon_FunctionIcons(x2)/64/Icon_Note.Png
-  artifactKey: Guid(90e782c89057b4b1395d4dc5d5241c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Icon_FunctionIcons(x2)/64/Icon_Note.Png using Guid(90e782c89057b4b1395d4dc5d5241c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00d787dbf179656dbb60352397b4bf0') in 0.020940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 2/Game-Play-.png
-  artifactKey: Guid(642d56e46ed5b9749bafcf19fb8993ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 2/Game-Play-.png using Guid(642d56e46ed5b9749bafcf19fb8993ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928d2ef7afcc5fb4d52fe070ea621493') in 0.036096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Next.png
-  artifactKey: Guid(cb221cc66db4845c08c103c53ce792e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Demo/Demo_Icon/Icon_Next.png using Guid(cb221cc66db4845c08c103c53ce792e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3c9758c753c7284d811ba00a401da9') in 0.023386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Plain Style Pack/Plain Button with icon 5/0.png
-  artifactKey: Guid(98070a73de609c6429f067a0cce63b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Plain Style Pack/Plain Button with icon 5/0.png using Guid(98070a73de609c6429f067a0cce63b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6533927cf9a2dd8f9de337bcebac8b') in 0.039743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Caps_Lock_Key_Dark.png
-  artifactKey: Guid(35416f1a24d98a64ba4a444cfdb2a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Caps_Lock_Key_Dark.png using Guid(35416f1a24d98a64ba4a444cfdb2a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b8b5dd84798004bb671fadbf03875c') in 0.020286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.memoryprofiler/Package Resources/Icons/CameraIcon@2x.png
-  artifactKey: Guid(d5f298ac26378f547b2d687c7ffb27a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.memoryprofiler/Package Resources/Icons/CameraIcon@2x.png using Guid(d5f298ac26378f547b2d687c7ffb27a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1649202d891078e434c91c40ac86194') in 0.016963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_128/icon_more_2.png
-  artifactKey: Guid(ee25407a73a45404082cd4bdaf618424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_128/icon_more_2.png using Guid(ee25407a73a45404082cd4bdaf618424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd2ec92aa7f9c15250bb44dfd5ded42') in 0.025934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.memoryprofiler/Package Resources/Icons/CameraIcon.png
-  artifactKey: Guid(3a1d1218810331a49a1d489dc8097fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.memoryprofiler/Package Resources/Icons/CameraIcon.png using Guid(3a1d1218810331a49a1d489dc8097fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489c71632df0a12625198caffad358ba') in 0.016406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Pink Button Square/Camera.png
-  artifactKey: Guid(2b58f6d9fdf869c4face1a895844cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Pink Button Square/Camera.png using Guid(2b58f6d9fdf869c4face1a895844cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe167cf3d7a0fc6b62d872a42bb5386f') in 0.035710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-471_comp_light.exr
-  artifactKey: Guid(a7d1ea6c0b3f14d4584636d2b6a3be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-471_comp_light.exr using Guid(a7d1ea6c0b3f14d4584636d2b6a3be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760dc963e277f223228aa1a5c619d5b') in 0.023838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Light/P_Key_Light.png
-  artifactKey: Guid(9d2c5fe489941484fbf138b811922b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Light/P_Key_Light.png using Guid(9d2c5fe489941484fbf138b811922b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84247fd126f2dce63d5124148d98253c') in 0.021419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@3x.png
-  artifactKey: Guid(4ae0b2f68c2464272b1b10105262b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@3x.png using Guid(4ae0b2f68c2464272b1b10105262b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77affa987ebc0fa4a160d955ca9191a') in 0.018268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_more_1.png
-  artifactKey: Guid(9edb49a11300042719e4b9e7babf0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_more_1.png using Guid(9edb49a11300042719e4b9e7babf0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906371dc4356015ab61d05a82b45f3ee') in 0.019856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top03_White.png
-  artifactKey: Guid(730e2671ed1834cc195fc05353996e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top03_White.png using Guid(730e2671ed1834cc195fc05353996e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e84fff45b9ba2afd4769cccf8253ee') in 0.032859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Props/Gem-2.png
-  artifactKey: Guid(699fdfb7731d843469c4c455dc91e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Props/Gem-2.png using Guid(699fdfb7731d843469c4c455dc91e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebb49b32bb872517f00764791a144b') in 0.035136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)T_Guns_D.png
-  artifactKey: Guid(d95c2d78760056742b2649f04974b45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)T_Guns_D.png using Guid(d95c2d78760056742b2649f04974b45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc540488a3b1d685d7308b7d93afbe') in 0.020252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Round/2/Menu-4.png
-  artifactKey: Guid(daff87e32ce2fd24ea5c791748e106d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Round/2/Menu-4.png using Guid(daff87e32ce2fd24ea5c791748e106d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e3a9fbef07d9e89771b56a160e53fe') in 0.040049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Icon Single/Menu-4.png
-  artifactKey: Guid(a98790ed97f058244a449a754d20aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Icon Single/Menu-4.png using Guid(a98790ed97f058244a449a754d20aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfebaa5ce4ec6a444678bbc0915e16f') in 0.027123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png
-  artifactKey: Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png using Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c426f22ad32eb7738b80409518b4236c') in 0.016403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 4/0.png
-  artifactKey: Guid(aabeb50b568beef47bfdf6283cdb0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 4/0.png using Guid(aabeb50b568beef47bfdf6283cdb0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65058272eade9a341dd49f658aa012ac') in 0.034598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/2/Camera.png
-  artifactKey: Guid(d9f476886773f2f4396e5ccf8220eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/2/Camera.png using Guid(d9f476886773f2f4396e5ccf8220eab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a6666b2493a3fd785d4d4435569509') in 0.033934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-461_comp_light.exr
-  artifactKey: Guid(52c2951d02fb4d7469356d25f9a7223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-461_comp_light.exr using Guid(52c2951d02fb4d7469356d25f9a7223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2042ebf0fdd946e5a13c9a45f9983e8') in 0.019162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Props/Gem.png
-  artifactKey: Guid(37b98981ca1f2ce4ab4db03de39bd5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Props/Gem.png using Guid(37b98981ca1f2ce4ab4db03de39bd5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc871456a5a7b510c03ef6a08e4783') in 0.027107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_move.png
-  artifactKey: Guid(6d988e65556914177b426452dce80213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_move.png using Guid(6d988e65556914177b426452dce80213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3625b4392b36fd96a1f63957083c9a1') in 0.019505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)TP_CH_Props.png
-  artifactKey: Guid(c71bb2ed9323ca34ea499f563e65c0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)TP_CH_Props.png using Guid(c71bb2ed9323ca34ea499f563e65c0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7258caa93717c2168c43f73171a97c62') in 0.018540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 12/Props/LIFE-1.png
-  artifactKey: Guid(24b21e4e7c60e504f95ee2131cf219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 12/Props/LIFE-1.png using Guid(24b21e4e7c60e504f95ee2131cf219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd274abe494cb93c197d8f82c53af7f16') in 0.024310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-825_comp_light.exr
-  artifactKey: Guid(5e00b1968225b0441af0b833424354ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-825_comp_light.exr using Guid(5e00b1968225b0441af0b833424354ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed56237b280fe4f0f6365698050a3c1c') in 0.018481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png
-  artifactKey: Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png using Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fc5aaf77c09cc7f0842b3ccdd37c96') in 0.028758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top04_Red2.png
-  artifactKey: Guid(ddcdef7bdc3ac44538192c65abe68f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top04_Red2.png using Guid(ddcdef7bdc3ac44538192c65abe68f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc513e90d8fa54e9730d3cfbbac3f33') in 0.027804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-822_comp_light.exr
-  artifactKey: Guid(a99702202369f5749b30f25c424c4a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-822_comp_light.exr using Guid(a99702202369f5749b30f25c424c4a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb981db5050516536b72c334f48fb1') in 0.021303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad.png
-  artifactKey: Guid(76dc61ff6c2d84b24b0a2ce01dc2842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad.png using Guid(76dc61ff6c2d84b24b0a2ce01dc2842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851d75c38addca9d07bb089fa260305a') in 0.019630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/Props/LIFE-2.png
-  artifactKey: Guid(08a5ccb87db6103458df943f3ab8030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/Props/LIFE-2.png using Guid(08a5ccb87db6103458df943f3ab8030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9481297185eaa78c845f3e92e363f0') in 0.039687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Bottom03_White.png
-  artifactKey: Guid(aedc449594ff84503b29da01d7494b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Bottom03_White.png using Guid(aedc449594ff84503b29da01d7494b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6eba85d22bcec543ac5e016b7fa9b5') in 0.028288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-476_comp_light.exr
-  artifactKey: Guid(2e6733981528e224eb8807d1ae02f018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-476_comp_light.exr using Guid(2e6733981528e224eb8807d1ae02f018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce00d41a656130658ed32955f032d6b') in 0.021366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top01_Navy.png
-  artifactKey: Guid(56b7c8f9bafe74749b267842a9f33fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top01_Navy.png using Guid(56b7c8f9bafe74749b267842a9f33fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b7105b3042c8f79144e5733746f673') in 0.020637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_note.png
-  artifactKey: Guid(ff05f33fa7a724216a7930d17d0b5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_note.png using Guid(ff05f33fa7a724216a7930d17d0b5973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1524accb3de1ad85aa34abde543f32e8') in 0.020174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-826_comp_light.exr
-  artifactKey: Guid(34b7c79c353bd254cbc78d0b53e3fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-826_comp_light.exr using Guid(34b7c79c353bd254cbc78d0b53e3fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf6a165f8a5855fa4b819d6fbc2eaee') in 0.020298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/d_FolderOpened@2x.png
-  artifactKey: Guid(327ac160fa4588b4ab06124fe53fdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/d_FolderOpened@2x.png using Guid(327ac160fa4588b4ab06124fe53fdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0702cc67c08dfcc36bc7fdcf41fb6d6') in 0.018891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 2/0.png
-  artifactKey: Guid(384631bb4a1c6f54fb974daadcd0e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 2/0.png using Guid(384631bb4a1c6f54fb974daadcd0e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09714a2dece092cabb37bc0ce0668d3f') in 0.033897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top04_Red1.png
-  artifactKey: Guid(666633c0bca62464d9b48b34b110e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_BarFrame_Top04_Red1.png using Guid(666633c0bca62464d9b48b34b110e595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999126fa66156a54dfa416b9362a0e06') in 0.023902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png
-  artifactKey: Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png using Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cafcf6dd06310b5b5809707c74a67e7') in 0.028904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-472_comp_light.exr
-  artifactKey: Guid(1da454855d940ea43aba05975e1d65f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-472_comp_light.exr using Guid(1da454855d940ea43aba05975e1d65f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a10152787976a0d0f24a49057e10c3') in 0.018432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-818_comp_light.exr
-  artifactKey: Guid(fd35cf9401e8bf54da7b08f2237f1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-818_comp_light.exr using Guid(fd35cf9401e8bf54da7b08f2237f1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a9990c095fe398ddeaf926926c9839') in 0.018852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText03_LIne1.png
-  artifactKey: Guid(4fd5069dd4f0f4331a1b43a6a86fa0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText03_LIne1.png using Guid(4fd5069dd4f0f4331a1b43a6a86fa0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ea2198d5ca0ae9751c1e06fc037f6') in 0.024693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@2x.png
-  artifactKey: Guid(bed935caee9524e6780614c2055bfd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@2x.png using Guid(bed935caee9524e6780614c2055bfd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1280a27f2acc4c8d0e111c5cccd19622') in 0.016078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/5/Menu-4.png
-  artifactKey: Guid(4f9de73e74cb34c42b6b5fef5a7e0ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Button with icon/5/Menu-4.png using Guid(4f9de73e74cb34c42b6b5fef5a7e0ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287a01f97672793d1d1529c10c4210d7') in 0.033242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Green Rounded/Camera.png
-  artifactKey: Guid(69e615e9b788e2749a9143e11a35f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Green Rounded/Camera.png using Guid(69e615e9b788e2749a9143e11a35f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3906f9963645c5a0c203614c7586a622') in 0.044486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Round/1/Play-Store.png
-  artifactKey: Guid(db564938739521a4cbc86711faf7af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Round/1/Play-Store.png using Guid(db564938739521a4cbc86711faf7af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b405e1fc75a18ecf630e415460332') in 0.033800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_128/icon_notification.png
-  artifactKey: Guid(1a1037809417a4e348cee38a3dff4100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_128/icon_notification.png using Guid(1a1037809417a4e348cee38a3dff4100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082f6bb78e7a9473306c81c11716c9ac') in 0.019442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/Button 4/Menu-4.png
-  artifactKey: Guid(b3ce10ce85b480d469e7dfff7825b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/Button 4/Menu-4.png using Guid(b3ce10ce85b480d469e7dfff7825b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf927877cf5b082ccfd41c6f8cab74c6') in 0.034013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Props/lIFE-3.png
-  artifactKey: Guid(b5f7e1d26e916884e9fd73c4450c3d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Props/lIFE-3.png using Guid(b5f7e1d26e916884e9fd73c4450c3d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf7b0216338e13accaf2241aa3f18f') in 0.018278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Demo_Defense/Lightmap-0_comp_light.exr
-  artifactKey: Guid(0160f02005e24ff49aac741632bfc830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Demo_Defense/Lightmap-0_comp_light.exr using Guid(0160f02005e24ff49aac741632bfc830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5932b8277e68c6cdfdb2ca4360a53ad5') in 0.019875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Demo_Desert/Lightmap-0_comp_light.exr
-  artifactKey: Guid(f61f5079e67a3b34ea633cd25065a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Demo_Desert/Lightmap-0_comp_light.exr using Guid(f61f5079e67a3b34ea633cd25065a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5503e1c9edbac1a04bf83f7f042d9ac') in 0.022395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png
-  artifactKey: Guid(031ab4aceeddba04988293ce73f29481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png using Guid(031ab4aceeddba04988293ce73f29481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1328dd25ebbadcb07c0a87a14bfa4ca') in 0.018394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-466_comp_light.exr
-  artifactKey: Guid(38a2e85f2415e884c81a1d11d9a7f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-466_comp_light.exr using Guid(38a2e85f2415e884c81a1d11d9a7f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc4ccc4ec04de64c57f46c6b5af6dbb') in 0.021719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-468_comp_light.exr
-  artifactKey: Guid(0d655a2d81a248045ba23ae273b5e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-468_comp_light.exr using Guid(0d655a2d81a248045ba23ae273b5e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae02accbd97049c4152f933c35e57ac') in 0.019044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Props/Gem.png
-  artifactKey: Guid(73070a26e4283804eba87364d2be065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Props/Gem.png using Guid(73070a26e4283804eba87364d2be065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad315c5bdfdf39dd331cae39a83a7ce') in 0.018993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-828_comp_light.exr
-  artifactKey: Guid(7ba6f0ca479fdb34692f0ce045e3991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-828_comp_light.exr using Guid(7ba6f0ca479fdb34692f0ce045e3991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958c08bd40b11f2e5018e3b91a67320') in 0.019291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-469_comp_light.exr
-  artifactKey: Guid(498c21cb5ac4a43428a7e91e4fe29d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-469_comp_light.exr using Guid(498c21cb5ac4a43428a7e91e4fe29d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facfa51ef11268b63d5db7b6c58764c1') in 0.019485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)Arm_Texture_Digital_Camo_Desert_01.png
-  artifactKey: Guid(bc0f6ba7d368c9d46a24cd49811bee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)Arm_Texture_Digital_Camo_Desert_01.png using Guid(bc0f6ba7d368c9d46a24cd49811bee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae5ff944cf076a281d52c0677266ce1') in 0.026442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Icon/Menu-4.png
-  artifactKey: Guid(7a2923b2b66b981499c5ab8763dc1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Icon/Menu-4.png using Guid(7a2923b2b66b981499c5ab8763dc1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419b8e9926091d119e0fb9980d08262') in 0.014777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Icon_FunctionIcons(x2)/64/Icon_Movie.Png
-  artifactKey: Guid(5489ce62cc39e476983568cd44880b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Icon_FunctionIcons(x2)/64/Icon_Movie.Png using Guid(5489ce62cc39e476983568cd44880b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed94d9d22c4fbb76ac7ae500629751e') in 0.022258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/white icon/0.png
-  artifactKey: Guid(6e4bf3de5452cdf47964793e5eed5b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/white icon/0.png using Guid(6e4bf3de5452cdf47964793e5eed5b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bafb9db7d36bc5343622a1f56ea8739') in 0.030378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-2.png
-  artifactKey: Guid(a127092180f9f61428a27e9a076432c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Panel/Panel-2.png using Guid(a127092180f9f61428a27e9a076432c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4b316964baf514ee3c57e5c8473e28') in 0.042008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_music.png
-  artifactKey: Guid(645768438322043c3858cf1d4098dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_music.png using Guid(645768438322043c3858cf1d4098dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eef72d2a468836ab28936781b77e927') in 0.018808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 6/Pause.png
-  artifactKey: Guid(c25cab16e4b01824085c26dab1bd6c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 8/Bubble Style Pack/Bubble Button 6/Pause.png using Guid(c25cab16e4b01824085c26dab1bd6c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c587aee60c77d8608667a5d04f70650') in 0.034604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top02_White2.png
-  artifactKey: Guid(f910790d366504083b312b5c49d16c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top02_White2.png using Guid(f910790d366504083b312b5c49d16c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358c0cce0cf919ca5b28903a67c98e0e') in 0.032522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png
-  artifactKey: Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png using Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968965440847c80de0b663b5e6d403e5') in 0.029099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 11/Props/LIFE-2.png
-  artifactKey: Guid(80200fe667eaed74db0ed68c3a73d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 11/Props/LIFE-2.png using Guid(80200fe667eaed74db0ed68c3a73d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1312ec32eabf5fe1e191ac6cb111481f') in 0.016890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png
-  artifactKey: Guid(7ab9d61dd9cf71842902f3fb4e21cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Third Party/Icons/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png using Guid(7ab9d61dd9cf71842902f3fb4e21cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44a28f197db7730b2fd2966db2256c3') in 0.018669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Round/5/Play-Store.png
-  artifactKey: Guid(bd0d8b51850cf9542815d6fa27863e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Round/5/Play-Store.png using Guid(bd0d8b51850cf9542815d6fa27863e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32535c0601c2a552051bc9c487d6b08d') in 0.033727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Bottom02_White1.png
-  artifactKey: Guid(876446cc0d1cd4a7b9a19c86bb0b00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Bottom02_White1.png using Guid(876446cc0d1cd4a7b9a19c86bb0b00d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8160b983094f1b2a1c683175c182b116') in 0.035120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText03_LIne3.png
-  artifactKey: Guid(7dba87d9652f748afb554315a8859d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText03_LIne3.png using Guid(7dba87d9652f748afb554315a8859d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dccf1813b1e30545333aab0b3568e7') in 0.028727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText00_Glow.png
-  artifactKey: Guid(653e876da31174b45876621c269d96ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Demo/Demo_Play/Play_ActionText00_Glow.png using Guid(653e876da31174b45876621c269d96ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c4ea953d5027a8d8e2cde4e3292f5a') in 0.029175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png
-  artifactKey: Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png using Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c312cdae347f59ef0af54ebf8c03decf') in 0.026193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Round/3/Play-store.png
-  artifactKey: Guid(295bc0c7b611e0947a6a38535bac355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Round/3/Play-store.png using Guid(295bc0c7b611e0947a6a38535bac355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e17206db14ac44f42d2c5962425823') in 0.033632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png
-  artifactKey: Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png using Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374c748ac35e6dcd6f27ba45b748607c') in 0.028614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 2/Menu-4.png
-  artifactKey: Guid(aa6e7b138fc0ae445928c624d151451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 12/Button with icon 2/Menu-4.png using Guid(aa6e7b138fc0ae445928c624d151451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa96268fcf12e364bf9af1da81b82ea3') in 0.036804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Props/LIFE-2.png
-  artifactKey: Guid(4d79c8327d36fd149ab0aa24d67f7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Props/LIFE-2.png using Guid(4d79c8327d36fd149ab0aa24d67f7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd7ea9e6d1dc307b64119fe6bc6fbb1') in 0.016156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top01_White2.png
-  artifactKey: Guid(57f721a0ee382405392d96e7620aa446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top01_White2.png using Guid(57f721a0ee382405392d96e7620aa446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e1e3d0a77294a15aa2858b61d4f9d') in 0.029246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-827_comp_light.exr
-  artifactKey: Guid(ff86f6aa9a1881544b9d88ee267a5556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-827_comp_light.exr using Guid(ff86f6aa9a1881544b9d88ee267a5556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8588bc5f5db9634018c08d99ec229c31') in 0.018840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@4x.png
-  artifactKey: Guid(7543bb6341c2140f292c8c852e7a3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@4x.png using Guid(7543bb6341c2140f292c8c852e7a3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9936fd70f22d6847df58a573b7b63cc5') in 0.019925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_CardFrame01_00_BotBar.png
-  artifactKey: Guid(2bf7d15d94f8f4937aa2491bd0504e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Demo/Frame_CardFrame01_00_BotBar.png using Guid(2bf7d15d94f8f4937aa2491bd0504e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52233434ac44a78efafac12437010259') in 0.025710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 10/Props/lIFE-3.png
-  artifactKey: Guid(ea1f77680da75b24c979a9835842bdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 10/Props/lIFE-3.png using Guid(ea1f77680da75b24c979a9835842bdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f9e1ae1e2389b5ea86f8830976e5a9') in 0.017771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-477_comp_light.exr
-  artifactKey: Guid(0eb4d350ac2ee7146b204cb9cd4b4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-477_comp_light.exr using Guid(0eb4d350ac2ee7146b204cb9cd4b4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf9ec6ea0c61d53dfc8518926f8fa91') in 0.025544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/Props/lIFE-3.png
-  artifactKey: Guid(231c51762527d5c45ac6b1a14528b720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/Props/lIFE-3.png using Guid(231c51762527d5c45ac6b1a14528b720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a78b8e192416133d002369e65f6e63') in 0.020079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Saurabh Studio/Awesome Game UI pack 9/Round/5/Camera.png
-  artifactKey: Guid(efe526077bd5f28489598b9d607eef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Awesome Game UI pack 9/Round/5/Camera.png using Guid(efe526077bd5f28489598b9d607eef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76059947dc2fd8de4beed66b12895f3') in 0.057871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-480_comp_light.exr
-  artifactKey: Guid(4619271d27af7b149bbe870f285be1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/Scenes/S_Content_Overview/Lightmap-480_comp_light.exr using Guid(4619271d27af7b149bbe870f285be1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e4d18640330221f7bd00dc9fe37beb') in 0.184060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_notice.png
-  artifactKey: Guid(46dd062fd02bc4237a2257c3a4abc370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon/PictoIcon_64/icon_notice.png using Guid(46dd062fd02bc4237a2257c3a4abc370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7bedd90ba751932621b76091c9dd55') in 0.042594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)TP_CH_Digital_Camo_Desert_03.png
-  artifactKey: Guid(71fbcc5e4f4ff5946ab8957466ed5bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Textures/(Legacy)TP_CH_Digital_Camo_Desert_03.png using Guid(71fbcc5e4f4ff5946ab8957466ed5bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4237baecc613eccf644dc777c3f18504') in 0.195812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top04_White1.png
-  artifactKey: Guid(fb87a844d4cbb4e0c8d9968c72418544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Sci-Fi/ResourcesData/Sprite/Component/Frame_Custom/Frame_BarFrame_Top04_White1.png using Guid(fb87a844d4cbb4e0c8d9968c72418544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79553f999e57a5dd348dd439365f1763') in 0.065346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.memoryprofiler/Package Resources/Icons/d_History.Back.png
-  artifactKey: Guid(957d2592b13eda749a0f9c6629e25961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.memoryprofiler/Package Resources/Icons/d_History.Back.png using Guid(957d2592b13eda749a0f9c6629e25961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da706371e9eb947aef59b1178538adb7') in 0.180745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/Button 3/Menu-4.png
-  artifactKey: Guid(fe1893ab866cecf419e41fb6938aaa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/Button 3/Menu-4.png using Guid(fe1893ab866cecf419e41fb6938aaa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63b374aa6e9154abd8c6873c062b20c') in 0.266534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_Off.png
-  artifactKey: Guid(ebc77c57adc574ea399043da12f3b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_Off.png using Guid(ebc77c57adc574ea399043da12f3b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27962090a40fd262301181950216f94c') in 0.131118 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 131.659379 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd764db3f67e2479e18670fbfe0e9611b') in 0.007459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007362 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5341.
+Memory consumption went from 294.1 MB to 294.1 MB.
+Total: 3.089200 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.308700 ms MarkObjects: 2.382100 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007326 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5344.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.617000 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.256800 ms MarkObjects: 2.985500 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5347.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.427900 ms (FindLiveObjects: 0.327700 ms CreateObjectMapping: 0.236600 ms MarkObjects: 2.829200 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009251 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Sci-Fi-Shooter-3\Sci-Fi-Shooter-3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1211ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5350.
+Memory consumption went from 294.3 MB to 294.3 MB.
+Total: 3.667300 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.327400 ms MarkObjects: 2.956100 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 262.167659 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0520af809c49fc398b3a7b00ce8d09db') in 0.006890 seconds 
